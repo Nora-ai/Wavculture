@@ -1,0 +1,22 @@
+
+#ignore bundler config
+/.bundle
+
+#ignore the default SQLite database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+#ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+#ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/public/assets
+.byebug_history
+
+#ignore master key for decrypting credentials and more
+/config/master.key
