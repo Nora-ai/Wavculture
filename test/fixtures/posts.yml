@@ -1,0 +1,47 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  location: MyString
+  link: MyString
+  festival: false
+  recurring: false
+  live: false
+  day_of_week_start: MyString
+  day_of_week_end: MyString
+  month_start: 1
+  month_end: 1
+  day_in_month_start: 1
+  day_in_month_end: 1
+  year_start: 1
+  year_end: 1
+  time_start_utc: 1
+  time_end_utc: 1
+  artist: one
+  genre: one
+  user: one
+  like: one
+
+two:
+  name: MyString
+  image: MyString
+  location: MyString
+  link: MyString
+  festival: false
+  recurring: false
+  live: false
+  day_of_week_start: MyString
+  day_of_week_end: MyString
+  month_start: 1
+  month_end: 1
+  day_in_month_start: 1
+  day_in_month_end: 1
+  year_start: 1
+  year_end: 1
+  time_start_utc: 1
+  time_end_utc: 1
+  artist: two
+  genre: two
+  user: two
+  like: two
