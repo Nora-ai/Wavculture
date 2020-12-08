@@ -1,5 +1,5 @@
 class Artist < ApplicationRecord
-  belongs_to :genre
-  belongs_to :post
-  belongs_to :comment
+  has_and_belongs_to_many :genres
+  has_many :posts
+  has_many :comments
 end

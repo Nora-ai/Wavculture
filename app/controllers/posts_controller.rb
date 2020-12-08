@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /posts
   def index
@@ -16,6 +17,7 @@ class PostsController < ApplicationController
   # POST /posts
   def create
     @post = Post.new(post_params)
+    @post.user = @current_user
 
     if @post.save
       render json: @post, status: :created, location: @post
@@ -36,7 +38,18 @@ class PostsController < ApplicationController
   # DELETE /posts/1
   def destroy
     @post.destroy
+  end 
+
+  # Associations
+  def add_artist
+    @post = Post.find(params[:id])
+    @artist = Artist.find(params[:artist_id])
+
+    @post.artists << @artist
+
+    render json: @post, include: :artists
   end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

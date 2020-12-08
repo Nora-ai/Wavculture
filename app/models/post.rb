@@ -1,6 +1,6 @@
 class Post < ApplicationRecord
   belongs_to :artist
-  belongs_to :genre
+  has_and_belongs_to_many :genres
   belongs_to :user
-  belongs_to :like
+  has_many :likes
 end
