@@ -1,0 +1,24 @@
+.header-block {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    height: 70px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
