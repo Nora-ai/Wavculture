@@ -22,3 +22,17 @@
     right: 5%;
     top: 3%;
 }
+
+.dropdown-header:hover,
+.dropdown-header li:hover { 
+    background: grey;
+}
+
+.dropdown-menu {
+    display:
+}
+
+.dropdown-menu,
+.dropdown-category {
+    list-style: none;
+}

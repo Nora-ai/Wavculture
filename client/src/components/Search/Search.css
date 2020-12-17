@@ -1,0 +1,7 @@
+.search-form-box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+
+}
