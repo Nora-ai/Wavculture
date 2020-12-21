@@ -23,13 +23,29 @@
     top: 3%;
 }
 
+.dropdown-header * {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-header li {
+    padding: 5px;
+    position: relative;
+    background: lightgray;
+}
+
 .dropdown-header:hover,
 .dropdown-header li:hover { 
     background: grey;
 }
 
-.dropdown-menu {
-    display:
+.dropdown-category .dropdown-menu {
+    display: none;
+}
+
+.dropdown-category:hover .dropdown-menu {
+    display: block;
+    
 }
 
 .dropdown-menu,
