@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 export default function Header (props) {
     return (<>
@@ -12,12 +13,12 @@ export default function Header (props) {
                         <li className= "dropdown-category">
                             <span>Menu</span>
                             <ul className="dropdown-menu">
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Contact Us</li>
+                                <Link to='/'><li>Home</li></Link>
+                                <Link to='/about-us'><li>About Us</li></Link>
+                                <Link to='/contact-us'><li>Contact Us</li></Link>
                                 <li>Mailing List</li>
-                                <li>Resources</li>
-                                <li>FAQ</li>
+                                <Link to='/resources'><li>Resources</li></Link>
+                                <Link to='/faq'><li>FAQ</li></Link>
                                 <li>Admin Login</li>
                             </ul>
                         </li>
