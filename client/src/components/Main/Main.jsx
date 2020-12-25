@@ -6,6 +6,8 @@ import About from '../About/About'
 import Contact from '../Contact/Contact'
 import Resources from '../Resources/Resources'
 import Faq from '../Faq/Faq'
+import Login from '../Login/Login'
+import Signup from '../Signup/Signup'
 import { Route } from 'react-router-dom'
 
 
@@ -18,7 +20,16 @@ export default function Main (props) {
                 <h1>Wavculture</h1>
             </div>
             <Search />
+        </>)}>
+        </Route>
 
+        <Route path='/login' render={() => (<>
+            <Login />
+        </>)}>
+        </Route>
+
+         <Route path='/sign-up' render={() => (<>
+            <Signup />
         </>)}>
         </Route>
 

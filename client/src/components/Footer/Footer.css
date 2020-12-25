@@ -1,23 +1,23 @@
 
-
 .footer-block {
     background-color: grey;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     position: absolute;
+    justify-content: space-evenly;
     bottom: 0;
     right: 0;
     left: 0;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
-.footer-left:hover {
+.footer-left {
    display: flex;
    flex-direction: column;
 }
 
-.footer-right:hover {
+.footer-right {
     display: flex;
     flex-direction: column;
+   
 }
