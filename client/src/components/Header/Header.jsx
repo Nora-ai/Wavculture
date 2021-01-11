@@ -26,8 +26,8 @@ export default function Header (props) {
                 </header>
             </div>
             <div className = "header-right">
-                <button>Sign Up</button>
-                <button>Log In</button>
+                <Link to="/sign-up"><button>Sign Up</button></Link>
+                <Link to="/login"><button>Log In</button></Link>
             </div>
         </div>
     </>)

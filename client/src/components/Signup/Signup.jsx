@@ -26,7 +26,7 @@ export default function Signup (props) {
     }
 
     return (<>
-
+<div className="border-form">
     <form className="signup-form" onSubmit={handleSubmit}>
         <h3>Sign Up</h3>
         <label>
@@ -63,6 +63,7 @@ export default function Signup (props) {
         </label>
         <button className= "signup-submit">Sign Up</button>
     </form>
+    </div>
 
     </>)
 }

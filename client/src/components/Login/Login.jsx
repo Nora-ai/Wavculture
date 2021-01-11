@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Login.css'
 import { loginUser } from '../../services/auth'
+import { Link } from 'react-router-dom'
 
 export default function Login (props) {
     const [formData, setFormData] = useState({
@@ -25,8 +26,10 @@ export default function Login (props) {
 
     return (<>
 
+    <div className="border-form">
         <form className="login-form" onSubmit={handleSubmit}>
-            <h3>Login</h3>
+            <h3>Login with your e-mail</h3>
+            <Link to="/sign-up"><p>Don't have an account? Sign up!</p></Link>
             <label className="login-username-label">
                 <input
                     className="login-username-input"
@@ -49,7 +52,7 @@ export default function Login (props) {
             </label>
             <button className="login-submit">Login</button>
         </form>
-
+    </div>
 
     </>)
 
