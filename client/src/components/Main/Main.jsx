@@ -8,6 +8,7 @@ import Resources from '../Resources/Resources'
 import Faq from '../Faq/Faq'
 import Login from '../Login/Login'
 import Signup from '../Signup/Signup'
+import CreatePost from '../CreatePost/CreatePost'
 import { Route } from 'react-router-dom'
 
 
@@ -52,6 +53,12 @@ export default function Main (props) {
             <Faq/>
         )}>
         </Route>
+
+        <Route path='/new-post' render={() => (
+            <CreatePost/>
+        )}>
+        </Route>
+
         
 
 

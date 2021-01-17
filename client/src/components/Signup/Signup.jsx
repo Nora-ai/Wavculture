@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { registerUser } from '../../services/auth'
 import './Signup.css'
+import { Link } from 'react-router-dom'
 
 export default function Signup (props) {
 
@@ -61,8 +62,10 @@ export default function Signup (props) {
                 onChange={handleChange}
             />
         </label>
+       
         <button className= "signup-submit">Sign Up</button>
     </form>
+    <Link to="/login"><p>Already have an account? Login</p></Link>
     </div>
 
     </>)
