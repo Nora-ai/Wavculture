@@ -8,12 +8,13 @@ export default function Search () {
         <form className="search-form-box">
             <div>
                 <input
+                    className="search-input"
                     placeholder = 'Search'
                 />
             </div>
 
             <div>
-                <select>
+                <select className="select-genre">
                     <option value=''>Genre</option>
                     <option>Ambient</option>
                     <option>instrumental</option>
@@ -24,7 +25,7 @@ export default function Search () {
             </div>
 
             <div>
-                <select>
+                <select className="select-day">
                     <option>Monday</option>
                     <option>Tuesday</option>
                     <option>Wednesday</option>
@@ -36,14 +37,14 @@ export default function Search () {
             </div>
     
             <div>
-                <select>
+                <select className="select-time">
                     <option>UTC</option>
                 </select>
                 
             </div>
 
             <div> 
-                <select>
+                <select className="select-city">
                     <option>New York</option>
                     <option>Los Angeles</option>
                     <option>Australia</option>

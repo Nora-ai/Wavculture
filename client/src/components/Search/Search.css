@@ -9,3 +9,22 @@
     border-width: 2px;
     margin: 5%;
 }
+
+
+.search-input,
+.select-genre,
+.select-day,
+.select-time,
+.select-city {
+    border-radius: 15px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    padding: 3px;
+    margin-right: 5px;
+    color: grey;
+}
+
+.search-input {
+    padding-left: 8px;
+}

@@ -18,7 +18,7 @@ export default function Main (props) {
 
         <Route path='/' exact render={() => (<>
             <div>
-                <h1>Wavculture</h1>
+                <h1 className="main-title">Wavculture</h1>
             </div>
             <Search />
         </>)}>
