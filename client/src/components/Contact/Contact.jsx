@@ -13,9 +13,27 @@ export default function Contact () {
             <p>We would love to hear from you!</p>
         </div>
 
-        <div className="contact-form">
-            <p>FORM FOR NAME EMAIL and MESSAGE WILL LIVE HERE</p>
-        </div>
+    
+            <form className="contact-form">
+                <div className="contact-name-email">
+                <input
+                    className="contact-input-name"
+                    type="text"
+                    placeholder="Enter Name"
+                />
+                <input
+                    className="contact-input-email"
+                    type="text"
+                    placeholder="Enter E-mail"
+                />
+                </div>
+                <input
+                    className="contact-input-message"
+                    type="text"
+                    placeholder="Enter Message"
+                />
+                <button>Submit</button>
+            </form>
 
         
     </>)

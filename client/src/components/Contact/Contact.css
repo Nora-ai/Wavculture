@@ -4,7 +4,33 @@
 }
 
 .contact-form {
-    text-align: center;
-    margin-top: 10%;
-    font-size: 20px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact-input-name,
+.contact-input-email {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact-name-email {
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contact-input-message {
+    width: 375px;
+    height: 100px;
+    border-radius: 10px;
+    border-color:lightgrey;
+    border-style: solid;
 }
