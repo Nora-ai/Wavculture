@@ -1,23 +1,34 @@
 
 .footer-block {
-    background-color: grey;
+    background-color: lightgrey;
     display: flex;
     flex-direction: row;
-    position: absolute;
-    justify-content: space-evenly;
+    position: fixed;
+    justify-content: space-around;
     bottom: 0;
     right: 0;
     left: 0;
     padding: 10px 0;
+    margin-top: auto;
 }
 
 .footer-left {
    display: flex;
    flex-direction: column;
+   font-size: small;
+   font-weight: 200;
+   
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
-   
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.footer-right p {
+    margin-bottom: 2%;
+    font-size: small;
+    font-weight: 200;
 }

@@ -1,7 +1,7 @@
 .header-block {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
+    background: linear-gradient(45deg, #7549b1, #72efdd,#f4a261);
     height: 70px;
 }
 
@@ -52,3 +52,17 @@
 .dropdown-category {
     list-style: none;
 }
+
+.sign-up-button,
+.login-button {
+    border-radius: 10px;
+    border: none;
+    padding: 5%;
+    width: 90px;
+    opacity: .60;
+}
+
+.sign-up-button {
+    margin-right: 10px;
+}
+

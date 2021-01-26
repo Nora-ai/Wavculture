@@ -3,5 +3,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 5%;
-
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 5%;
 }
