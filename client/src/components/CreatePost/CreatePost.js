@@ -37,11 +37,12 @@ export default function CreatePost (props) {
 
     return (<>
 
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="livestream-form">
 
         <h3>Submit a Livestream</h3>
 
-        <label>
+        
+        <label className="label-artist">
             <p>Artist</p>
             <input
                 className= "new-post-artist"
@@ -52,8 +53,8 @@ export default function CreatePost (props) {
                 onChange={handleChange}
             />
         </label>
-
-        <label>
+    
+        <label className="label-ls-name">
             <p>Livestream Name</p>
             <input
                 className= "new-post-livestream-name"
@@ -65,7 +66,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-genre">
             <p>Genre</p>
             <input
                 className= "new-post-genre"
@@ -77,7 +78,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-date">
             <p>Date</p>
             <input
                 className= "new-post-date"
@@ -89,7 +90,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-time">
             <p>Time</p>
             <input
                 className= "new-post-time"
@@ -101,7 +102,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-location">
             <p>Location</p>
             <input
                 className= "new-post-location"
@@ -113,7 +114,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-image-link">
             <p>Image Link</p>
             <input
                 className= "new-post-image-link"
@@ -125,7 +126,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-ls-link">
             <p>Livestream Link</p>
             <input
                 className= "new-post-livestream-link"
@@ -137,7 +138,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-instagram">
             <p>Instagram</p>
             <input
                 className= "new-post-instagram"
@@ -149,7 +150,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-linktree">
             <p>Linktree</p>
             <input
                 className= "new-post-linktree"
@@ -161,7 +162,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-description">
             <p>Description</p>
             <input
                 className= "new-post-description"
@@ -173,7 +174,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-festival">
             <p>Festival</p>
             <input
                 className= "new-post-festival"
@@ -185,7 +186,7 @@ export default function CreatePost (props) {
             />
         </label>
 
-        <label>
+        <label className="label-recurring">
             <p>Recurring</p>
             <input
                 className= "new-post-recurring"

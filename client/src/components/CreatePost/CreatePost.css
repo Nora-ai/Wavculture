@@ -1,0 +1,45 @@
+.livestream-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-artist,
+.label-ls-name,
+.label-genre,
+.label-date,
+.label-time,
+.label-location,
+.label-image-link,
+.label-ls-link,
+.label-instagram,
+.label-linktree,
+.label-description,
+.label-festival,
+.label-recurring {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.new-post-artist,
+.new-post-livestream-name,
+.new-post-genre,
+.new-post-date,
+.new-post-time,
+.new-post-location,
+.new-post-image-link,
+.new-post-livestream-link,
+.new-post-instagram,
+.new-post-linktree,
+.new-post-description,
+.new-post-festival,
+.new-post-recurring {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 1%;
+}
